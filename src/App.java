@@ -1,3 +1,7 @@
+ 
+ // Hélio Cassimiro de Souza Neto
+ // Matrícula: 1261940735
+ 
  public class App {
 
  public static void somarArray(int numeros []){
