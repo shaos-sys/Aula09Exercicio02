@@ -1,18 +1,21 @@
  public class App {
 
- public static void somarArray(){
- int[] numeros = {10, 20, 30, 40, 50};
+ public static void somarArray(int numeros []){
+   
    int soma = 0;
-    for (int num : numeros){
-    soma += num;   
-    }
+
+   for (int num : numeros) {
+   soma = soma + num;   
+   }
 
     System.out.println("Soma: " + soma);
     
    }
 
      public static void main(String[] args) throws Exception {
-        somarArray();
+
+        int num [] = {10, 43, 443, 67};
+        somarArray(num);
         
      }
  }
